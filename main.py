@@ -22,10 +22,10 @@ mydb=pymysql.connect(host='localhost', user='root', password='', port=3306, data
 cur = mydb.cursor()
 
 sender_address = 'arravalipavan@gmail.com' #enter sender's email id
-sender_pass = 'ztgkiggjuweaqyde' #enter sender's passwor
+sender_pass = '' #enter sender's passwor
 # IS THIS MAIL YOURS yes mam
 app=Flask(__name__)
-app.config['SECRET_KEY']='ajsihh98rw3fyes8o3e9ey3w5dc'
+app.config['SECRET_KEY']=''
 
 @app.before_first_request
 def initialize():
